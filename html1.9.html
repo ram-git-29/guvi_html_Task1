@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Default Values Form</title>
+</head>
+<body>
+
+  <form>
+
+    <!-- Text Input -->
+    <label>Full Name:
+      <input type="text" name="fullname" value="John Doe">
+    </label><br><br>
+
+    <!-- Email Input -->
+    <label>Email:
+      <input type="email" name="email" value="john@example.com">
+    </label><br><br>
+
+    <!-- Password Input -->
+    <label>Password:
+      <input type="password" name="password" value="123456">
+    </label><br><br>
+
+    <!-- Number Input -->
+    <label>Age:
+      <input type="number" name="age" value="30">
+    </label><br><br>
+
+    <!-- Radio Buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male" checked> Male<br>
+    <input type="radio" name="gender" value="female"> Female<br><br>
+
+    <!-- Checkboxes -->
+    <label>Hobbies:</label><br>
+    <input type="checkbox" name="hobby1" value="reading" checked> Reading<br>
+    <input type="checkbox" name="hobby2" value="music"> Music<br>
+    <input type="checkbox" name="hobby3" value="sports" checked> Sports<br><br>
+
+    <!-- Select Dropdown -->
+    <label>Country:
+      <select name="country">
+        <option value="us" selected>United States</option>
+        <option value="uk">United Kingdom</option>
+        <option value="in">India</option>
+      </select>
+    </label><br><br>
+
+    <!-- Textarea -->
+    <label>Message:<br>
+      <textarea name="message" rows="4" cols="30">Hello, this is a default message.</textarea>
+    </label><br><br>
+
+    <!-- Date -->
+    <label>Date of Birth:
+      <input type="date" name="dob" value="1995-05-10">
+    </label><br><br>
+
+    <!-- Color -->
+    <label>Favorite Color:
+      <input type="color" name="favcolor" value="#ff0000">
+    </label><br><br>
+
+    <!-- Range -->
+    <label>Volume:
+      <input type="range" name="volume" min="0" max="100" value="50">
+    </label><br><br>
+
+    <!-- Submit -->
+    <input type="submit" value="Submit">
+
+  </form>
+
+</body>
+</html>
+

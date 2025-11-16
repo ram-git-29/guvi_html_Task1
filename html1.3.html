@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:100px 300px;
+            border: 2px solid black;
+            width:320px;
+            height:300px;
+        }
+        .contact-form{
+            text-align: center;
+            padding:20px;
+        }
+        .contact-form input,textarea{
+            margin-top: 10px;
+            box-shadow: 0 10px 16px rgba(117, 8, 8, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <form class="contact-form" action="" >
+        <h2>Contact Us</h2>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required/>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required/>
+        <label for="phone">Phone Number </label>
+        <input type="tel" id="phone" name="phone" required/>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required/>
+        <label type="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+    </form>
+    
+</body>
+</html>
